@@ -8,5 +8,5 @@ export default {
     dataServicesBaseUrl: 'https://api.cardium.network/v0',
     spamListUrl: 'https://raw.githubusercontent.com/cardiumcoin/cardium-community/main/scam%20tokens%20according%20to%20ym%20community.csv',
     nodes: [{url: nodeUrl, maintainer: 'CARDIUM'}],
-    dappsUrl: 'https://raw.githubusercontent.com/cardiumcoin/cardium-client-config/main/official_ym_dapps.json'
+    dappsUrl: 'https://raw.githubusercontent.com/cardiumcoin/cardium-client-config/refs/heads/master/official_cardium_dapps.json'
 };
