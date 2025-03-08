@@ -34,7 +34,7 @@ function clean() {
 function buildOfficialProd(done) {
     buildApp({
         network: 'mainnet',
-        decompileUrl: 'https://node.cardium.network/utils/script/decompile'
+        decompileUrl: 'http://34.71.16.84/utils/script/decompile'
     }, 'prod', done);
 }
 
