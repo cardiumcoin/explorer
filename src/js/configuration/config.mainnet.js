@@ -1,4 +1,4 @@
-const nodeUrl = 'https://node.cardium.network';
+const nodeUrl = 'http://34.71.16.84';
 
 export default {
     networkId: 'mainnet',
