@@ -12,7 +12,7 @@ RUN rm -rf /etc/nginx/conf.d/*
 COPY --from=build /app/etc/nginx /etc/nginx/conf.d
 COPY --from=build /app/dist /usr/share/nginx/html
 
-EXPOSE 8080
+EXPOSE 2323
 
 COPY launch.sh ./
 RUN chmod +x launch.sh
